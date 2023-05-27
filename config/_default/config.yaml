@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Erikson Aguiar # Website name
-baseURL: 'https://eriksonjaguiar.github.io/erikson.github.io' # Website URL
+baseURL: 'https://eriksonjaguiar.github.io' # Website URL
 
 ############################
 ## LANGUAGE
