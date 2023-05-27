@@ -26,11 +26,9 @@ bio: My research interests include security & privacy, Deep Learning, and Comput
 
 # Interests to show in About widget
 interests:
-  - Machine Learning
-  - Deep Learning
+  - Machine Learning & Deep Learning
   - Computer Vision
   - Security & Privacy
-  - Security of Healthcare applications 
   - Distributed Systems
 
 # Education to show in About widget
@@ -68,7 +66,7 @@ social:
     link: https://github.com/eriksonjaguiar
   - icon: linkedin
     icon_pack: fab
-    link: linkedin.com/in/erjulioaguiar
+    link: https://linkedin.com/in/erjulioaguiar
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
@@ -84,6 +82,7 @@ highlight_name: true
 ---
 
 Erikson Aguiar is a Ph.D. candidate at the University of São Paulo (USP), Brazil, in the Database and Image Group (GBDI). His research concerns security and privacy in Machine Learning for healthcare applications. He received his M.Sc. degree in Computer Science from the University of São Paulo (USP) in 2021. He completed his B.Sc. in Computer Science at the State University of Northern Paraná (UENP). His main research interest includes Security & Privacy, Machine Learning, Deep Learning, and Computer Vision. Also, he has technical skills in C, Golang, Node.js, Python, Git, TensorFlow, Pytorch, Scikit-learn, OpenCV, Docker, GCP, and AWS.
+{style="text-align: justify;"}
 
 I relish coffee, sports, and music. When I leave the office, I enjoy watching football (supporting Flamengo🔴⚫ from Brazil), playing video games, and running.
 {style="text-align: justify;"}
