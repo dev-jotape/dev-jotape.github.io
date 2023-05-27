@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: eriksonjaguiar.github.io/sitemap.xml
