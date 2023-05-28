@@ -194,8 +194,9 @@ sections:
       flip_alt_rows: false
   
   - block: experience
+    id: teaching
     content:
-      title: Experience
+      title: Teaching assistant
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -204,42 +205,72 @@ sections:
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
-          description: |2-
-              Responsibilities include:
+      items:         
+        - title: Image Processing
+          company: University of Sao Paulo - ICMC/USP
+          # company_url: ''
+          # company_logo: org-gc
+          # location: California
+          date_start: '2023-04-01'
+          date_end: '2023-07-15'
+        
+        - title: Computer and Society
+          company: University of Sao Paulo - ICMC/USP
+          # company_url: ''
+          # company_logo: org-gc
+          # location: California
+          date_start: '2022-08-01'
+          date_end: '2022-12-10'
+        
+        - title: Mining in large databases
+          company: University of Sao Paulo - ICMC/USP
+          # company_url: ''
+          # company_logo: org-gc
+          # location: California
+          date_start: '2021-08-01'
+          date_end: '2021-12-10'
+          # description: |2-
+          #     Responsibilities include:
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          #     * Analysing
+          #     * Modelling
+          #     * Deploying
+        
+        - title: Introduction to programming (C language)
+          company: University of Sao Paulo - ICMC/USP
+          # company_url: ''
+          # company_logo: org-gc
+          # location: California
+          date_start: '2020-03-01'
+          date_end: '2020-07-10'
+        
+        - title: Distributed Systems
+          company: University of Sao Paulo - ICMC/USP
+          # company_url: ''
+          # company_logo: org-gc
+          # location: California
+          date_start: '2019-08-01'
+          date_end: '2019-12-15'
+          # description: |2-
+          #     Responsibilities include:
+
+          #     * Analysing
+          #     * Modelling
+          #     * Deploying
     design:
       columns: '2'
 
 
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Recent & Upcoming Talks
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
   # - block: tag_cloud
   #   content:
   #     title: Popular Topics
