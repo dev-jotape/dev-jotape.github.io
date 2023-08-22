@@ -22,7 +22,7 @@ organizations:
     url: https://www.icmc.usp.br/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include security & privacy, Deep Learning, and Computer Vision.
+bio: My research interests include Deep Learning, Computer Vision, and Remote Sensing.
 
 # Interests to show in About widget
 interests:
