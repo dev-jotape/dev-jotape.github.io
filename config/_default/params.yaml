@@ -43,7 +43,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Erikson Aguiar.'
+    notice: '© {year} João Pedro da Silva.'
     license:
       enable: false
       allow_derivatives: false
@@ -68,7 +68,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/eriksonjaguiar/eriksonjaguiar.github.io'
+    url: 'https://github.com/dev-jotape/dev-jotape.github.io'
     content_dir: content
     branch: main
   avatar:

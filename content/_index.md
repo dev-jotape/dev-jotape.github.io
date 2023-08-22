@@ -7,7 +7,7 @@ type: landing
 sections:
   # - block: hero
   #   content:
-  #     title: Erikson's Page
+  #     title: João's Page
   #     image:
   #       filename: hero-academic.png
   #     cta:
@@ -49,26 +49,35 @@ sections:
           #description: 90%
           icon: python
           icon_pack: fab
-        - name: Golang
-          #description: 100%
-          icon: golang
+        - name: Node
+          #description: 90%
+          icon: node
           icon_pack: fab
-        - name: Pytorch/Tensorflow
+        - name: Javascript/Typescript
+          #description: 90%
+          icon: square-js
+          icon_pack: fab
+        - name: AWS
+          #description: 100%
+          icon: aws
+          icon_pack: fab
+        - name: Tensorflow
           #description: 10%
           icon: robot
           icon_pack: fas
-        - name: Scikit-learn
-          #description: 10%
-          icon: atom
+        - name: PostgreSQL
+          icon: database
           icon_pack: fas
-        - name: OpenCV
-          #description: 10%
-          icon: eye
+        - name: Microservice
+          icon: boxes-stacked
           icon_pack: fas
         - name: Git
           #description: 10%
           icon: github
           icon_pack: fab
+        - name: CI/CD
+          icon: infinity
+          icon_pack: fas
 
   # - block: accomplishments
   #   content:
@@ -156,21 +165,21 @@ sections:
   #   design:
   #     columns: '2'
   #     view: card
-  - block: collection
-    id: publications
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+  # - block: collection
+  #   id: publications
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
   
   - block: portfolio
     id: projects
@@ -194,9 +203,9 @@ sections:
       flip_alt_rows: false
   
   - block: experience
-    id: teaching
+    id: experience
     content:
-      title: Teaching assistant
+      title: Professional Experience
       # Date format for experience
       #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -206,57 +215,63 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:         
-        - title: Image Processing
-          company: University of Sao Paulo - ICMC/USP
+        - title: Backend Engineer | Senior
+          company: impactMarket
           # company_url: ''
           # company_logo: org-gc
           # location: California
-          date_start: '2023-04-01'
-          date_end: '2023-07-15'
+          date_start: '2021-07-01'
+          description: |2-
+              * Working on the impactMarket backend. A platform that provides accessible financial services such as Unconditional Basic Income for poverty alleviation.
+              * Using Node, AWS (Lambda, S3, EC2, API Gateway), Unit tests (Mocha and Chai), Postgres, Redis, Heroku
+              * In addition, in a complementary way, I work with blockchain tools, such as Smart Contracts, listening network events, and so on.
         
-        - title: Computer and Society
-          company: University of Sao Paulo - ICMC/USP
+        - title: Backend Engineer | Senior
+          company: Rethink
           # company_url: ''
           # company_logo: org-gc
           # location: California
-          date_start: '2022-08-01'
-          date_end: '2022-12-10'
+          date_start: '2020-11-01'
+          date_end: '2021-07-10'
+          description: |2-
+              * Worked on backend, developing the Smiles application, which is the mileage program for Gol, a major airline company.
+              * I utilized various technologies to deliver robust solutions, including Node.js, Microservices architecture, and AWS services such as API Gateway, Lambda, SQS, and S3. I also implemented unit tests using Mocha and Chai for ensuring code quality and reliability. Additionally, I employed CI/CD practices with Jenkins to streamline the development and deployment processes
         
-        - title: Mining in large databases
-          company: University of Sao Paulo - ICMC/USP
+        - title: Backend Engineer | Mid-level
+          company: Raia Drogasil
           # company_url: ''
           # company_logo: org-gc
           # location: California
-          date_start: '2021-08-01'
-          date_end: '2021-12-10'
-          # description: |2-
-          #     Responsibilities include:
+          date_start: '2020-02-01'
+          date_end: '2020-11-10'
+          description: |2-
+              * Developed backend solutions for pharmaceutical e-commerce applications, Drogaraia and Drogasil utilizing Node.js with GraphQL.
+              * Created the Stix loyalty program, establishing a unified wallet that enables users to earn and redeem points for products across major supermarket and pharmacy chains in Brazil. Revamped the monolithic architecture of backend systems, transitioning to a microservices-based approach through integration using Node.js.
+              * Contributed to the development team by providing technical guidance through pair programming, participating in task prioritization, and addressing bug fixes.
+              * Played a key role in promoting and maintaining best development practices within the team and development chapter, including continuous integration, code reviews, automated tests, and facilitating application releases on Google   Play and the App Store
+        
+        - title: Founder and Full-Stack Engineer
+          company: SEV Solutions
+          # company_url: ''
+          # company_logo: org-gc
+          # location: California
+          date_start: '2017-10-01'
+          date_end: '2019-12-10'
+          description: |2-
+              * As the founder of SEV Solutions, I led the development of an ecosystem cen- tered around virtual attendants (chatbots) for restaurant social media. This included creating products like an order management dashboard and chatbots integrated with Facebook and Instagram for menu display and ordering
+        
+        - title: Full-Stack Software Engineer | Junior
+          company: ONCLICK Soluções Digitais
+          # company_url: ''
+          # company_logo: org-gc
+          # location: California
+          date_start: '2016-03-01'
+          date_end: '2019-01-15'
+          description: |2-
+              * As a full-stack developer, I actively participated in the construction of an ERP omnichannel order management system. My responsibilities encompassed utilizing Vue.js on the front end, Node.js on the backend, and PostgreSQL as the database.
+              * This involved integrating various customer marketplaces and utilizing messaging software such as RabbitMQ to facilitate seamless communication.
 
-          #     * Analysing
-          #     * Modelling
-          #     * Deploying
-        
-        - title: Introduction to programming (C language)
-          company: University of Sao Paulo - ICMC/USP
-          # company_url: ''
-          # company_logo: org-gc
-          # location: California
-          date_start: '2020-03-01'
-          date_end: '2020-07-10'
-        
-        - title: Distributed Systems
-          company: University of Sao Paulo - ICMC/USP
-          # company_url: ''
-          # company_logo: org-gc
-          # location: California
-          date_start: '2019-08-01'
-          date_end: '2019-12-15'
-          # description: |2-
-          #     Responsibilities include:
-
-          #     * Analysing
-          #     * Modelling
-          #     * Deploying
+              
     design:
       columns: '2'
 
@@ -284,7 +299,7 @@ sections:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # # Contact (add or remove contact options as necessary)
-      email: erjulioaguiar@usp.br
+      email: jp.silva@usp.br
       #phone: 888 888 88 88
       #appointment_url: 'https://calendly.com'
       address:
@@ -295,8 +310,8 @@ sections:
         country: Brazil
         country_code: BR
       directions: Block 1, Office 1-116
-      office_hours:
-        - 'Monday - Friday 08:00 to 17:00'
+      # office_hours:
+      #   - 'Monday - Friday 08:00 to 17:00'
       # contact_links:
       #   - icon: twitter
       #     icon_pack: fab
