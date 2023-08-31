@@ -26,6 +26,7 @@ bio: My research interests include Deep Learning, Computer Vision, and Remote Se
 
 # Interests to show in About widget
 interests:
+  - Backend Development (Node.js) 
   - Machine Learning & Deep Learning
   - Computer Vision
   - Remote Sensing
